@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
+.container2 .header2 button, .row1 .minicontainer-text1 button:hover, .container5 button, .modal-content1 button {
+  padding: 11px 25px;
+  background-color: #FF5300;
+  color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+header .donate button, .row1 .minicontainer-text1 button, .cont4 button {
+  padding: 11px 25px;
+  border: 1px solid #FF5300;
+  color: #FF5300;
+  background-color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0;
+}
+
+#intro {
+  z-index: 1;
+  background: transparent linear-gradient(243deg, #FBFBFB 0%, #FCFCFC 21%, #FCFCFC 33%, #F6F7F9 45%, #F6F6F6 56%, #F6F7F8 70%, #F6F6F7 100%) 0% 0% no-repeat padding-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 45px 15px;
+}
+
+header .donate button {
+  font-weight: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .donate button:hover {
+  background-color: #FF5300;
+  color: #FFFFFF;
+}
+
+header .donate button:hover svg path {
+  fill: #FFFFFF;
+}
+
+header .donate svg {
+  width: 15px;
+  margin-right: 5px;
+}
+
+header .donate svg path {
+  fill: #FF5300;
+}
+
+header .logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 17px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #222222;
+  padding: 10 0;
+  display: inline-block;
+}
+
+header nav ul li a.active {
+  color: #FF5300;
+  border-bottom: 1px solid #FF5300;
+}
+
+header nav ul li a:hover {
+  color: #FF5300;
+  border-bottom: 1px solid #FF5300;
+}
+
+.intro-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 15px;
+}
+
+.intro-heading .content {
+  margin-top: 140px;
+  width: 741px;
+}
+
+.intro-heading .content span {
+  color: #FF5300;
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 28px;
+}
+
+.intro-heading .content span:before {
+  content: "";
+  width: 25px;
+  height: 1px;
+  top: 38%;
+  position: absolute;
+  background: #FF5300;
+  left: 0;
+}
+
+.intro-heading h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  margin-bottom: 25px;
+  color: #222222;
+}
+
+.intro-heading p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+}
+
+.container2 {
+  position: relative;
+  z-index: 5;
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: -80px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.container2 .row {
+  -webkit-box-shadow: 0px 20px 60px #3e3e3e36;
+          box-shadow: 0px 20px 60px #3e3e3e36;
+}
+
+.container2 .header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 90px 60px 0px 60px;
+}
+
+.container2 .header2 h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.container2 .containers {
+  padding-left: 60px;
+  width: 739px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.container2 .containers img {
+  height: 189px;
+  width: 229px;
+}
+
+.container2 .containers .mini-container {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.container2 .containers p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.container2 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777;
+}
+
+.row:last-child {
+  padding-bottom: 50px;
+}
+
+.container3 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container3 h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.row1 {
+  height: 300px;
+  width: 353px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 20px 60px #3e3e3e36;
+          box-shadow: 0px 20px 60px #3e3e3e36;
+}
+
+.row1 .minicontainer-text1 {
+  padding-top: 30px;
+  padding-left: 29px;
+  padding-right: 37px;
+}
+
+.row1 .minicontainer-text1 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777;
+}
+
+.row1 .minicontainer-text1 h2 {
+  margin-top: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.row1 .minicontainer-text1 p {
+  margin-top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777;
+}
+
+.row1 .minicontainer-text1 button {
+  margin-top: 60px;
+}
+
+.mini-containers1 {
+  width: 1170;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.row1 {
+  display: inline-block;
+}
+
+.container5 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container5 span {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777;
+  margin-top: 20px;
+}
+
+.container5 h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.container5 input {
+  height: 60;
+  width: 418px;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+  margin-left: -30;
+  border: 1px solid #6d6a6a;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container5 button {
+  height: 60px;
+  margin-left: -4px;
+  margin-bottom: 80px;
+}
+
+.greycolor {
+  width: 100%;
+  height: 400px;
+  background-color: #F5F5F5;
+}
+
+.greycolor .big-container {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.greycolor .cont1 {
+  padding: 0px 0 0 200px;
+  width: 326px;
+  display: inline-block;
+}
+
+.greycolor .cont1 span {
+  display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.greycolor .cont1 img {
+  display: inline-block;
+  height: 36px;
+}
+
+.greycolor .cont1 p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 30px;
+  color: #999999;
+}
+
+.greycolor .cont2 {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.greycolor .cont2 .cont2-text span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  display: block;
+  margin-top: 25px;
+}
+
+.greycolor .cont2 .cont2-text span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.greycolor .cont2 .cont2-text p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222222;
+}
+
+.greycolor .cont2 .cont2-text p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cont3 {
+  display: inline-block;
+  margin-left: 180px;
+}
+
+.cont3 .cont3-text span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  display: block;
+  margin-top: 25px;
+}
+
+.cont3 .cont3-text span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cont3 .cont3-text p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222222;
+}
+
+.cont3 .cont3-text p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cont4 {
+  margin-left: 150px;
+}
+
+.cont4 p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222222;
+}
+
+.cont4 p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cont4 button {
+  padding: 18px 23px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.cont4 button:hover {
+  background-color: #FF5300;
+}
+
+.cont4 button:hover svg path {
+  fill: #FFFFFF;
+}
+
+.cont5 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #99999949;
+  width: 900px;
+}
+
+.cont5 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
+.cont5 .mini-cont5 {
+  padding-top: 38px;
+}
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content1 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20 40px;
+  border: 1px solid #888;
+  width: 60%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.modal-content1 h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px 0 0 20px;
+}
+
+.modal-content1 p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.modal-content1 button {
+  margin-top: 55px;
+}
+
+.closebuttoncont {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
